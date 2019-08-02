@@ -1,0 +1,44 @@
+product,source,from_codeset,to_codeset,note,metric,label,a,b,num_data_points
+windows server,IRS,-,-,-,IRS,IRS,1,-0.185,6
+windows server,IRS/Kemerer,full,ship,exact+partial,lines,IRS/Kemerer lines,1.0369,-0.192,6
+windows server,TC,full,ship,exact+partial,lines,TC full-ship lines,1,-0.188928,3
+windows server,TC,full,ship,exact+partial,files,TC full-ship files,1,-0.171948,3
+windows server,TC,full,ship,exact+partial,folders,TC full-ship folders,1,-0.220691,3
+windows server,TC,ship,ship,exact+partial,lines,TC ship-ship lines,1,-0.209741,3
+windows server,TC,ship,ship,exact+partial,files,TC ship-ship files,1,-0.228849,3
+windows server,TC,ship,ship,exact+partial,folders,TC ship-ship folders,1,-0.24773,3
+windows server,TC,full,full,exact+partial,lines,TC full-full lines,1,-0.213244,6
+windows server,TC,full,full,exact+partial,files,TC full-full files,1,-0.195404,6
+windows server,TC,full,full,exact+partial,folders,TC full-full folders,1,-0.394625,6
+windows server,Murphy,ship,ship,exact+partial,lines,Murphy ship-ship lines,1,-0.257869,6
+windows server,Murphy,ship,ship,exact+partial,files,Murphy ship-ship files,1,-0.263192,6
+windows server,OLD commit,ship,ship,Y/Y,commit,Ship commit Y/Y,1,-0.2676,36
+windows server,OLD commit,ship,ship,pre/post,commit,Ship commit pre/post,1,-0.2149,3
+windows server,OLD commit,ship,ship,Y/Y pre only,commit,Ship commit Y/Y pre only,1,-0.224,15
+windows server,OLD commit,ship,ship,Y/Y post only,commit,Ship commit Y/Y post only,1,-0.1661,3
+windows server,OLD commit,entire,entire,Y/Y,commit,Entire commit Y/Y,1,-0.3386,36
+windows server,OLD commit,entire,entire,pre/post,commit,Entire commit pre/post,1,-0.2852,3
+windows server,OLD commit,entire,entire,Y/Y pre only,commit,Entire commit Y/Y pre only,1,-0.3579,15
+windows server,OLD commit,entire,entire,Y/Y post only,commit,Entire commit Y/Y post only,1,-0.2171,3
+windows server,TC,ship,ship,exact+partial,file_dependency,TC ship-ship file_dependency,1,-0.455138,3
+windows server,TC,ship,ship,exact+partial,parent3_dependency,TC ship-ship parent3_dependency,1,-0.392988,3
+office,IRS,-,-,-,-,IRS,1,-0.234,14
+office,IRS/Kemerer,full,ship,exact+partial,lines,IRS/Kemerer lines,1.1977,-0.261,14
+office,OLD snapshot,full,ship,exact+partial,lines,full-ship lines,1,-0.248,14
+office,OLD snapshot,ship,ship,exact+partial,lines,ship-ship lines,1,-0.3229,6
+office,OLD snapshot,ship,ship,exact+partial,files,ship-ship files,1,-0.3786,6
+office,OLD snapshot,ship,ship,exact,folders,ship-ship folders,1,-0.4983,6
+office,OLD snapshot,full,full,exact+partial,lines,full-full lines,1,-0.4707,15
+office,OLD commit,ship,ship,Y/Y,commit,Ship commit Y/Y,1,-0.236,45
+office,OLD commit,ship,ship,pre/post,commit,Ship commit pre/post,1,-0.1812,5
+office,OLD commit,ship,ship,Y/Y pre only,commit,Ship commit Y/Y pre only,1,-0.2636,10
+office,OLD commit,ship,ship,Y/Y post only,commit,Ship commit Y/Y post only,1,-0.1946,10
+office,OLD commit,entire,entire,Y/Y,commit,Entire commit Y/Y,1,-0.3887,45
+office,OLD commit,entire,entire,pre/post,commit,Entire commit pre/post,1,-0.2989,5
+office,OLD commit,entire,entire,Y/Y pre only,commit,Entire commit Y/Y pre only,1,-0.5738,10
+office,OLD commit,entire,entire,Y/Y post only,commit,Entire commit Y/Y post only,1,-0.3346,10
+office,Murphy,ship,ship,-,lines,Murphy ship-ship lines,1,-0.481787,6
+office,Murphy,ship,ship,-,files,Murphy ship-ship files,1,-0.514887,6
+office,MSRC,filtered,filtered,-,lines,MSRC filtered - lines,1,-0.205494,21
+office,MSRC,filtered,filtered,-,files,MSRC filtered - files,1,-0.237668,21
+office,MSRC,filtered,filtered,-,folders,MSRC filtered - folders,1,-0.418514,21
